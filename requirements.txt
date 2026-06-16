@@ -1,0 +1,11 @@
+# 주식 리서치 자동화 프로젝트 — Python 의존성
+# 설치: pip install -r requirements.txt
+
+# 데이터 수집
+finance-datareader   # 시세·지수·추세 (market-technical-analyst)
+pykrx                # 시가총액·거래대금 (risk-manager)
+# opendartreader     # DART 공시·재무 (fundamental-analyst) — 미설치 시 requests 직접 호출
+requests             # API 직접 호출용
+
+# 리포트 생성
+python-pptx          # PPTX 리포트 (report-pptx 스킬)
